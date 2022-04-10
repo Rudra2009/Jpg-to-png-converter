@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #230b2b;
+    color: #ccc;
+    font-size: 20px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(#111546, #341064);
+}
+input[type="file"]{
+    display: none;
+}
+main > label.Jpg-Converter{
+    font-size: 2rem;
+    font-family:'sans serif' , poopins;
+    background-color: #1c2486;
+    border-radius: 40px;
+    padding: 10px 10px;
+    box-shadow: 10px 10px 10px #000001;
+    cursor: pointer;
+}
+::-webkit-scrollbar{
+    width: 12px;
+}
+::-webkit-scrollbar-track{
+    background: linear-gradient(#111546, #341064);
+}
+::-webkit-scrollbar-thumb{
+    background:linear-gradient(#000,#331849 );
+    border-radius: 20px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background:linear-gradient(#000,#490b80 );
+
+}
